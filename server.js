@@ -7,10 +7,9 @@ fccTesting(app);
 const saltRounds = 12;
 const myPlaintextPassword = 'sUperpassw0rd!';
 const someOtherPlaintextPassword = 'pass123';
-console.log('hello world')
 
 //START_ASYNC -do not remove notes, place code between correct pair of notes.
-
+const bcrypt = require('bcrypt')
 
 
 //END_ASYNC
